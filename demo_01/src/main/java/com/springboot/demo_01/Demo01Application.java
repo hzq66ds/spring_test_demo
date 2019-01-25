@@ -14,7 +14,7 @@ public class Demo01Application {
 
 	@RequestMapping("/{name}")
 	public String sayHello(@PathVariable("name") String name){
-		return "say hello "+name;
+		return "say hello1 "+name;
 	}
 
 

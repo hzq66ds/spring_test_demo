@@ -12,11 +12,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.20.BUILD-SNAPSHOT</version>
-		<relativePath/>
+		<version>2.1.2.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
+	<properties>
+		<java.version>1.8</java.version>
+		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+	</properties>
 	<modules>
 		<module>demo_01</module>
+		<module>demo_02_eureka-server</module>
+		<module>demo_02_eureka-client_01</module>
+		<module>demo_02_eureka-client_02</module>
 	</modules>
 </project>

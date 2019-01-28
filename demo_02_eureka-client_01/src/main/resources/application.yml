@@ -1,0 +1,13 @@
+### banner显示模式，可选值[log|console|false]
+spring:
+  main:
+    banner-mode: console
+  application:
+    name: eureka_client_01
+
+server:
+  port: 8081
+eureka:
+  client:
+   serviceUrl:
+    defaultZone: http://localhost:8761/eureka/

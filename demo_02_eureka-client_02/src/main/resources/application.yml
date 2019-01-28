@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: console
+  application:
+    name: eureka_client_02
+
+server:
+  port: 8082
+eureka:
+  client:
+   serviceUrl:
+    defaultZone: http://localhost:8761/eureka/

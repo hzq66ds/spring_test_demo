@@ -12,8 +12,4 @@ eureka:
 spring:
   application:
     name: eureka_server
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+

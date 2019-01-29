@@ -27,6 +27,9 @@
 		<module>demo_02_eureka-server</module>
 		<module>demo_02_eureka-client_01</module>
 		<module>demo_02_eureka-client_02</module>
+		<module>demo_hystrix</module>
+		<module>demo_hystrix_Dashboard</module>
+		<module>demo_turbine</module>
 	</modules>
 
 

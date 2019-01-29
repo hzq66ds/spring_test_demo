@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: console
+  application:
+    name: demo_hystrix_Dashboard
+server:
+  port: 8083
+
+eureka:
+  client:
+   serviceUrl:
+    defaultZone: http://localhost:8761/eureka/

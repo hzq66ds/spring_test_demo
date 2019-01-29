@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo_01_eureka_client_01" />
+        <module name="demo_01_eureka_client_02" />
+        <module name="demo_01_eureka_server" />
+        <module name="demo_hystrix" />
+        <module name="demo_hystrix_Dashboard" />
+        <module name="demo_turbine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo_01_eureka_client_01" target="1.8" />
+      <module name="demo_01_eureka_client_02" target="1.8" />
+      <module name="demo_01_eureka_server" target="1.8" />
+      <module name="demo_hystrix" target="1.8" />
+      <module name="demo_hystrix_Dashboard" target="1.8" />
+      <module name="demo_main" target="1.8" />
+      <module name="demo_turbine" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

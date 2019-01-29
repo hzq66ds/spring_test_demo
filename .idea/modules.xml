@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo_02_eureka-client_01/demo_01_eureka_client_01.iml" filepath="$PROJECT_DIR$/demo_02_eureka-client_01/demo_01_eureka_client_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_02_eureka-client_02/demo_01_eureka_client_02.iml" filepath="$PROJECT_DIR$/demo_02_eureka-client_02/demo_01_eureka_client_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_02_eureka-server/demo_01_eureka_server.iml" filepath="$PROJECT_DIR$/demo_02_eureka-server/demo_01_eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_hystrix/demo_hystrix.iml" filepath="$PROJECT_DIR$/demo_hystrix/demo_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_hystrix_Dashboard/demo_hystrix_Dashboard.iml" filepath="$PROJECT_DIR$/demo_hystrix_Dashboard/demo_hystrix_Dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_main.iml" filepath="$PROJECT_DIR$/demo_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_turbine/demo_turbine.iml" filepath="$PROJECT_DIR$/demo_turbine/demo_turbine.iml" />
+    </modules>
+  </component>
+</project>

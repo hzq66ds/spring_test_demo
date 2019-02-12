@@ -1,6 +1,7 @@
 package com.springboot.demo_01;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
@@ -14,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableHystrix
 public class Demo02EurekaClient02Application {
 
+	@Autowired
+	private MyConfig myConfig;
 
 	@RequestMapping("/{name}")
 	@HystrixCommand(fallbackMethod = "sayHelloFallbackMethod")
@@ -22,7 +25,7 @@ public class Demo02EurekaClient02Application {
 			int a = 1/0;
 			return String.valueOf(a);
 		}else{
-			return "say hello1 "+name;
+			return "say hello1 "+name+"\t"+myConfig.getServers().size()+"\t"+myConfig.getServers().get(0);
 		}
 	}
 
